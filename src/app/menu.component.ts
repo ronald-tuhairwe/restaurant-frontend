@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { NgToastService } from "ng-angular-popup";
 import { ToastrService } from "ngx-toastr";
 
 import { Ifood } from "./ifood";
