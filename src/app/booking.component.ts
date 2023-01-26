@@ -36,9 +36,19 @@ import { StateService } from "./state.service";
               <div class="tab-pane active show" id="tab-1">
                 <div class="row">
                   <div class="col-lg-9 details order-2 order-lg-1 mt-3 mb-3">
-                    <h3>Email : {{ c.email }}</h3>
-                    <p class="fst-italic">Subject : {{ c.subject }}</p>
-                    <p>information: {{ c.information }}</p>
+                    <h4>Email : {{ c.email }}</h4>
+                    <p class="fst-italic">
+                      <strong> Message :</strong> &nbsp;{{ c.message }}
+                    </p>
+                    <p>
+                      <strong>number of People :</strong>&nbsp;
+                      {{ c.people }} &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                      <strong>Time :</strong> &nbsp;
+                      {{ c.time }}
+                    </p>
+                    <h6 style="margin-left: 70%">
+                      <strong>Date :</strong>&nbsp; {{ c.dt | date }}
+                    </h6>
                   </div>
 
                   <div class="col-lg-3 text-center order-1 order-lg-2 ">
