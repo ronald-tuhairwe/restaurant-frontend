@@ -30,7 +30,7 @@ import { Component } from "@angular/core";
             data-aos-delay="200"
           >
             <a
-              href="https://www.youtube.com/watch?v=xTTzN3B1uUg"
+              href="https://www.youtube.com/watch?v=hpAv3gXJA4w&ab_channel=RestaurantReviewsWorldwide"
               class="glightbox play-btn"
             ></a>
           </div>
