@@ -762,8 +762,11 @@ export class AppComponent implements DoCheck {
           localStorage.setItem("USER", JSON.stringify(decoded));
           this.showAdmin = true;
         }
+        this.toastr.success("Successfully Login");
+      }else{
+        this.toastr.success(resp.data);
       }
-      this.toastr.success("Successfully Login");
+     
     
     });
 
