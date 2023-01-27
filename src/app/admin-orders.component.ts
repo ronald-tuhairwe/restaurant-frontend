@@ -29,7 +29,8 @@ import { StateService } from "./state.service";
                     </li>
                     <!-- <li class="dropdown"> -->
 
-                    <div *ngFor="let usr1 of usr.orders">
+                    <div *ngFor="let usr1 of usr.orders;let i as index">
+                      <p>No: {{i}}</p>
                       <ul *ngFor="let usr2 of usr1">
                         <li>
                           item: {{ usr2.name }} - - - - - price: $
